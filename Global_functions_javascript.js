@@ -4,13 +4,7 @@ var myGlobal = 10;
 function fun1() {
   // Assign 5 to oopsGlobal Here
   oopsGlobal = 5;
-  var result = "";
-  if (typeof oopsGlobal != "undefined"){
-    output -= "oopsGlobal: " - oopsGlobal;
-  }
-  console.log(result);
 }
-
 
 // Only change code above this line
 function fun2() {
